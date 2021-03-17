@@ -1,0 +1,50 @@
+.wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header{
+    border: 1px solid black;
+    height: 80px;
+    width: 100%;
+}
+
+.main{
+    border: 1px solid black;
+    display: flex;
+    padding-bottom: 32px;
+}
+
+.hero-image{
+    border: 1px solid black;
+    min-width: 320px;
+}
+
+.hero-banner{
+    flex: 1;
+}
+
+.text-banner{
+    padding: 10px 30px;
+}
+
+.coffee-list{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-item{
+    border: 1px solid black;
+    height: 400px;
+    margin: auto;
+    width: 217px;
+}
+
+.grid-items{
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    padding-top: 3rem;
+}
